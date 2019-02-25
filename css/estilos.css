@@ -5,18 +5,16 @@
 }
 
 header {
-    background-color: aqua;
     width: 90%;
     margin: 0 15%;
     max-width: 700px;
-
 }
 
-
 .barra {
-    background-color: rgba(247, 9, 207, 0.733);
+    background-color: #DB008D;;
     width: 100%;
     margin: 20px auto;
+    padding: 10px auto;
 }
 
 .mobileMenu {
@@ -28,7 +26,6 @@ header {
 
 
 #nav {
-    background-color: rgba(247, 9, 207, 0.733);
     width: 70%;
     padding: 10px 0px 14px 0px;
     font-family: 'B612', sans-serif;
@@ -40,53 +37,58 @@ header {
 }
 
 .contenedor {
-    background-color: rgb(140, 140, 146);
     width: 70%;
 }
 
 .contenidoPrincipal {
-    background-color: blue;
-    width: 90%;
-    margin: 0 15%;
-    max-width: 700px;
-    float: left;
+    width: 68.5%;
+	float: left;
+	margin-right: 1.5%;
 }
 
 .entrada {
-    background-color: tan;
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    float: left;
 }
 
 .boton {
-    background-color: blueviolet;
+    background-color: #00B8E4;
     padding: 5px 30px;
 }
 
 .sidebar {
-    float: left;
-    background-color: brown;
+	float: left;
+	width: 30%;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.otrasEntradas {
     width: 90%;
     margin: 50px auto;
     max-width: 500px;
 }
 
-.otrasEntradas {
-    background-color: grey;
-    width: 90%;
-    margin: 50px auto;
-    max-width: 500px;
+.otrasEntradas h2{
+    color: #00B8E4;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
 
+.otrasEntradas ul{
+    list-style-type: none;
+	margin: 15px;
+}
+
+.otrasEntradas li{
+    margin-bottom: 10px;
 }
 
 .footerSitio {
     background-color: palevioletred;
-
     margin: 20px auto;
     clear: both;
-
 }
 
 .nosotros {
@@ -95,8 +97,6 @@ header {
     margin: 50px auto;
     max-width: 600px;
 }
-
-
 
 .menu {
     background-color: paleturquoise;
@@ -113,11 +113,10 @@ header {
     margin-top: 10%;
 }
 
-a {
+.barra a {
     text-decoration: none;
     color: white;
-    margin-right: 8%;
-
+    margin-right: 30px;
 }
 
 img {
@@ -129,6 +128,7 @@ img {
 p {
     font-family: 'B612', sans-serif;
     text-align: justify;
+    margin-bottom: 10px;
 }
 
 .siteHeader img {
@@ -144,4 +144,12 @@ footer {
 
 h2 {
     color: #00B8E4
+}
+
+.entrada img{
+    width: 250px;
+}
+
+.entrada h2, p, .boton{
+    margin-bottom: 10px;
 }
