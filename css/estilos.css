@@ -1,5 +1,147 @@
-*{
+* {
     margin: 0px auto;
     padding: 0;
     box-sizing: border-box;
+}
+
+header {
+    background-color: aqua;
+    width: 90%;
+    margin: 0 15%;
+    max-width: 700px;
+
+}
+
+
+.barra {
+    background-color: rgba(247, 9, 207, 0.733);
+    width: 100%;
+    margin: 20px auto;
+}
+
+.mobileMenu {
+    background-color: red;
+    width: 90%;
+    margin: 0 15%;
+    max-width: 700px;
+}
+
+
+#nav {
+    background-color: rgba(247, 9, 207, 0.733);
+    width: 70%;
+    padding: 10px 0px 14px 0px;
+    font-family: 'B612', sans-serif;
+}
+
+
+.cerrar {
+    background-color: greenyellow;
+}
+
+.contenedor {
+    background-color: rgb(140, 140, 146);
+    width: 70%;
+}
+
+.contenidoPrincipal {
+    background-color: blue;
+    width: 90%;
+    margin: 0 15%;
+    max-width: 700px;
+    float: left;
+}
+
+.entrada {
+    background-color: tan;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.boton {
+    background-color: blueviolet;
+    padding: 5px 30px;
+}
+
+.sidebar {
+    float: left;
+    background-color: brown;
+    width: 90%;
+    margin: 50px auto;
+    max-width: 500px;
+}
+
+.otrasEntradas {
+    background-color: grey;
+    width: 90%;
+    margin: 50px auto;
+    max-width: 500px;
+
+}
+
+.footerSitio {
+    background-color: palevioletred;
+
+    margin: 20px auto;
+    clear: both;
+
+}
+
+.nosotros {
+    background-color: orange;
+    width: 90%;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+
+
+.menu {
+    background-color: paleturquoise;
+    width: 600px;
+    float: left;
+
+}
+
+.copyright {
+    background-color: #B10474;
+    text-align: right;
+    padding: 10px;
+    padding-right: 17%;
+    margin-top: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 8%;
+
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+
+}
+
+p {
+    font-family: 'B612', sans-serif;
+    text-align: justify;
+}
+
+.siteHeader img {
+    width: 350px;
+    float: none
+}
+
+
+footer {
+    background-color: #DB008D;
+}
+
+
+h2 {
+    color: #00B8E4
 }
