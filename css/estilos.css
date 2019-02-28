@@ -44,7 +44,7 @@ header {
 }
 
 .contenidoPrincipal {
-    width: 65%;
+    width: 55%;
 	float: left;
     padding: 10px auto;
     margin-bottom: 25px;
@@ -125,8 +125,8 @@ header {
 .nosotros {
     width: 50%;
     float: left;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     color: white;
 }
 
