@@ -5,14 +5,13 @@ console.log('1');
         console.log('2')
     })
 })();
-console.log('3');
 
+console.log('3');
 document.getElementById('barra');
 var barra = document.getElementById('barra');
 console.log(barra);
-
 console.log(barra.hasAttribute('class'));
-ConstantSourceNode.log(barra.getAttribute('class'));
+console.log(barra.getAttribute('class'));
 
 barra.setAttribute('class', 'barra2');
 console.log(barra);
